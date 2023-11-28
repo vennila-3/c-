@@ -9,4 +9,8 @@ PRIMARY DATA TYPE:
 DERIVED DATATYPE:
      Function,Array,Pointer,Reference.
 USER DEFINE DATA TYPE: 
-      Class,Structure,Union,Enumeration,,Typedef defined Datatype
+      Class,Structure,Union,Enumeration,,Typedef defined Datatype.
+
+Type converrt
+    implicit-->  bool -> char -> short int -> int -> unsigned int -> long -> unsigned -> long long -> float -> double -> long double
+    explict is reverse form ---  we should typecast
