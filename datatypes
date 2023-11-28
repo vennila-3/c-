@@ -1,0 +1,12 @@
+data types:
+
+Primary or Built-in or Fundamental data type
+Derived data types
+User-defined data types
+
+PRIMARY DATA TYPE:
+     Integer,Character,Boolean,Floating Point,Double Floating Point,Valueless or Void,Wide Character
+DERIVED DATATYPE:
+     Function,Array,Pointer,Reference.
+USER DEFINE DATA TYPE: 
+      Class,Structure,Union,Enumeration,,Typedef defined Datatype
