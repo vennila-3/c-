@@ -1,0 +1,43 @@
+variable definition 
+       A variable definition is a part where the variable is assigned a memory location and a value int a=10;
+variable declaration
+         The variable declaration refers to the part where a variable is first declared or introduced before its first use  int a;
+
+
+Types of Variables
+      There are three types of variables based on the scope of variables in C++
+           Local Variables
+           Instance Variables
+           Static Variables
+constants
+    The constants in C are the read-only variables whose values cannot be modified once they are declared in the C program.
+    const int int_const = 25;
+   TYPES:
+       Integer Constant
+       Character Constant
+       Floating Point Constant
+       Double Precision Floating Point Constant
+       Array Constant
+      Structure Constant
+
+ENUM:
+   Enumeration (or enum) is a user defined data type in C and C++. It is mainly used to assign names to integral constants, that make a program easy to read and maintain.
+CONSTEXP:
+     Using constexpr in C++(not in C) can be used to declare variable as a guaranteed constant. But it would fail to compile if its initializer isn’t a constant expression.
+     #include <iostream> 
+     int main() 
+     { 
+	  int var = 5;              //error var is an integer constexp is consonant
+	  constexpr int k = var; 
+	  std::cout << k; 
+	  return 0; 
+} 
+
+SCOPE
+        Global Scope
+        Local Scope
+
+
+SCOPE VS LIFETIME
+       The scope of the variable is the region where it is valid to refer to the variable using its name.
+      The lifetime of the variable is the time between it is allocated memory and it is deleted from the memory.
