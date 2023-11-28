@@ -40,3 +40,33 @@ FEATURES OF C++
   Dynamic Memory Allocation
   Memory Management
   Multi-threading
+
+
+// C++ program to display "Hello World"
+
+// Header file for input output functions
+#include <iostream>
+using namespace std;
+
+// Main() function: where the execution of
+// program begins
+int main()
+{
+	// Prints hello world
+	cout << "Hello World";
+
+	return 0;
+}
+
+Preprocessors are programs that process the source code before compilation. 
+Types of C/C++ Preprocessors
+
+There are 4 Main Types of Preprocessor Directives:  
+Macros
+File Inclusion
+Conditional Compilation
+Other directives
+
+When we import a namespace we are essentially pulling all type definitions into the current scope.
+The std namespace is huge. The alternative to this statement is to specify the namespace to which the identifier belongs using the scope operator(::)each time we declare a type.
+
